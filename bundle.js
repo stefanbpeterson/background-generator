@@ -17146,9 +17146,15 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
 
-function generateRandomBackground() {
+randomColorButton.addEventListener('click', () => {
   bodyGradient.style.background = 'linear-gradient(to right, rgb(' + getRandomInt(255) + ', ' + getRandomInt(255) + ', ' + getRandomInt(255) + '), rgb(' + getRandomInt(255) + ', ' + getRandomInt(255) + ', ' + getRandomInt(255) + '))';
 
   css.textContent = bodyGradient.style.background + ';';
-}
+});
+
+// function generateRandomBackground() {
+//   bodyGradient.style.background = 'linear-gradient(to right, rgb(' + getRandomInt(255) + ', ' + getRandomInt(255) + ', ' + getRandomInt(255) + '), rgb(' + getRandomInt(255) + ', ' + getRandomInt(255) + ', ' + getRandomInt(255) + '))';
+
+//   css.textContent = bodyGradient.style.background + ';';
+// }
 },{"lodash":1}]},{},[2]);
