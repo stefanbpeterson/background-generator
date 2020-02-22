@@ -17151,10 +17151,4 @@ randomColorButton.addEventListener('click', () => {
 
   css.textContent = bodyGradient.style.background + ';';
 });
-
-// function generateRandomBackground() {
-//   bodyGradient.style.background = 'linear-gradient(to right, rgb(' + getRandomInt(255) + ', ' + getRandomInt(255) + ', ' + getRandomInt(255) + '), rgb(' + getRandomInt(255) + ', ' + getRandomInt(255) + ', ' + getRandomInt(255) + '))';
-
-//   css.textContent = bodyGradient.style.background + ';';
-// }
 },{"lodash":1}]},{},[2]);

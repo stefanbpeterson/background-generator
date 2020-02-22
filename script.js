@@ -9,8 +9,6 @@ const color2 = document.querySelector('.color2');
 const bodyGradient = document.getElementById('bodyGradient');
 const randomColorButton = document.querySelector('.randomColorButton');
 
-console.log(randomColorButton);
-
 bodyGradient.style.background = 'linear-gradient(to right, ' + color1.value + ', ' + color2.value + ')';
 
 css.textContent = bodyGradient.style.background + ';';
